@@ -1,0 +1,85 @@
+*{
+ border: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+body{
+    /* margin-inline: 80px;
+    margin-block: 30px; */
+    background-color: aqua;
+}
+header{
+    background-color: white;
+}
+nav{
+    display: flex;
+    gap: 15rem;
+    padding: 20px;
+    padding-left: 80px;
+}
+ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+main{
+    margin: 70px;
+    display: flex;
+    /* padding: 20px;
+    padding-left: 80px;
+    padding-top: 100px; */
+}
+section{
+    font-size: small;
+}
+#maint{
+    font-size: 30px;
+}
+#wbutton{
+    margin-top: 20px;
+    padding: 10px;
+    border: white;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 40px;
+    padding: 10px;
+    width: 30%;
+    height: 30rem;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius: 3%;
+}
+#formh{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+label{
+    font-size: 18px;
+    font-weight: 500;
+}
+input{
+    border: 1px solid black;
+    border-radius: 5%;
+    position: relative;
+    padding: .3rem;
+}
+input option{
+    position: absolute;
+    border: 1px solid black;
+}
+#ctbtn{
+    padding: 1rem;
+    background-color: blue;
+    color: white;
+}
+a{
+    text-decoration: none;
+}

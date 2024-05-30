@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white: #f7f2f2;
+    --black: #232323;
+    --orange: #ed6821;
+}
+header{
+    height: 100vh;
+    background-image: url(./images/pexels-pixabay-268533.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    color: var(--orange);
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+a:focus{
+    color: var(--orange);
+}
+#inputdiv{
+    position: relative;
+    border: 1px solid var(--orange);
+    
+}
+#inputdiv button{
+    position: absolute;
+    right: 1px;
+    border: none;
+    height: 100%;
+    background-color: var(--orange);
+    padding-inline: 0.4rem;
+    border-radius: 0px 4px 4px 0px;
+    padding-inline: 0.5rem;
+}
+#inputdiv input{
+    background-color: inherit;
+    border: var(--orange) 1px solid;
+    border-radius: 1px;
+    padding: 0.3rem;
+}
+#orange{
+    color: var(--orange);
+}
+#left{
+    color: var(--white);
+    width: 50%;
+    padding-left: 5rem;
+    margin-top: 4rem;
+}
+#left h1{
+    width: 60%;
+    font-size: 3rem;
+}
+button{
+    background-color: var(--orange);
+    padding-inline: 32px;
+    padding-block: 9px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+body{
+    position: relative;
+}
+main{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--black);
+    width: 20%;
+    height: 70%;
+    opacity: 0.9;
+    margin-right: 5%;
+    margin-top: 10%;
+    border-radius: 2%;
+}
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-inline: 32px;
+    color: var(--white);
+}
+form input{
+    border: none;
+    border-bottom: 1px solid var(--orange);
+    background-color: inherit;
+    
+   
+}
+#whitebtn{
+    border: none;
+    background-color: var(--white);
+    color: var(--orange);
+    font-weight: 700;
+    font-size: medium;
+    font-family: sans-serif;
+}
+#loginbtn{
+    background-color: var(--orange);
+    font-weight: 700;
+    font-size: medium;
+}
+form a{
+    color: var(--orange);
+}
+form p{
+}
+
+

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(236, 235, 235);
+    height: 100vh;
+}
+main{
+    display: flex;
+    margin: 40px 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.infoside{
+    background-color: #437efd;
+    text-align: center;
+    color: white;
+    width: 35%;
+    padding: 150px 50px;
+    line-height: 20px;
+}
+p{
+    line-height: 20px;
+}
+span{
+    font-size: 19px;
+    font-weight: 550;
+    margin-bottom: 5rem;
+    line-height: 50px;
+}
+.infoside button{
+    color: white;
+    background-color: #316FF6;
+    border: none;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: px;
+    text-align: center;
+    background-color: white;
+    width: 40%;
+    padding: 30px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: px;
+}
+input{
+    padding: 15px 110px;
+    margin-top: 20px;
+    background-color: rgb(236, 234, 234);
+    border: none;
+    border-radius: 3px;
+}
+form button{
+    width: 98%;
+    padding: 15px;
+    text-align: center;
+    margin: 20px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    background-color: #316FF6;
+}
+.icons{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: .5rem;
+    margin-top: 8px;
+}
+.facebook{
+    border-radius: 50%;
+    padding: 4px;
+    color: white;
+    background-color: #316FF6;
+}
+.google{
+    border-radius: 100%;
+    padding: 4px;
+    color: white;
+    background-color: red;
+}
+.linkedin{
+    border-radius: 70%;
+    padding: 4px;
+    color: white;
+    background-color: #316FF6;
+}
+.inputcontainer{
+    position: relative;
+}
+.inputcontainer i{
+    position: absolute;
+    top: 50%;
+    left: 6%;
+}
